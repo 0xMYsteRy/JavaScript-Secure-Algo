@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b764fa3-247e-4c49-b09f-72ae7a7fef80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MD5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hmac.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaScript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/DiffieHellman.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/MD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/aes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/hmac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/rsa-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/rsa-prv.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/rsa-pub.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicCryptoAlgorithm/rsa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiffieHellman.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmac.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -42,7 +52,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.MD5.js">
+  <component name="RunManager" selected="Node.js.rsa.js">
     <configuration name="DiffieHellman.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/DiffieHellman.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -52,8 +62,16 @@
     <configuration name="aes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/aes.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="hmac.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hmac.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="rsa.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/BasicCryptoAlgorithm/rsa.js" working-dir="$PROJECT_DIR$/BasicCryptoAlgorithm">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rsa.js" />
+        <item itemvalue="Node.js.hmac.js" />
         <item itemvalue="Node.js.MD5.js" />
         <item itemvalue="Node.js.DiffieHellman.js" />
         <item itemvalue="Node.js.aes.js" />
@@ -69,10 +87,25 @@
       <option name="presentableId" value="Default" />
       <updated>1611391254919</updated>
       <workItem from="1611391256409" duration="3991000" />
+      <workItem from="1611410209696" duration="1956000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
